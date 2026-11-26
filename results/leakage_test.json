@@ -1,0 +1,26 @@
+{
+ "elliptic_T35": {
+  "cases_checked": 141772,
+  "features_checked": 261,
+  "values_checked": 37002492,
+  "identical_values": 37002492,
+  "columns_with_differences": [],
+  "max_abs_diff": 0.0
+ },
+ "elliptic_T42": {
+  "cases_checked": 174085,
+  "features_checked": 261,
+  "values_checked": 45436185,
+  "identical_values": 45436185,
+  "columns_with_differences": [],
+  "max_abs_diff": 0.0
+ },
+ "amlsim10k_T12": {
+  "cases_checked": 118830,
+  "features_checked": 88,
+  "values_checked": 10457040,
+  "identical_values": 10457040,
+  "columns_with_differences": [],
+  "max_abs_diff": 0.0
+ }
+}

@@ -1,0 +1,13 @@
+# regenerable data and large intermediate outputs (see README: "Reproduce")
+cache/
+results/predictions/
+results/archive_pre_final/
+results/archive_v13/
+logs/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+~$*.docx
+# manuscript and response letter are not part of the code release
+paper/
+scripts/build_paper.py

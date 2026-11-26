@@ -1,0 +1,5 @@
+ranking,mean_risk_drop_mean,mean_risk_drop_std,mean_logodds_drop_mean,mean_logodds_drop_std
+highest raw risk,0.0227,0.0033,0.2922,0.0255
+lowest-attributed,-0.0005,0.0001,0.03,0.0201
+random agent,0.0029,0.0008,0.0721,0.0143
+top-attributed (AMIF-X),0.0173,0.0034,0.0179,0.0839

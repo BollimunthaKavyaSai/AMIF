@@ -1,0 +1,2 @@
+Scenario,Owner,pseudo_labels(final step),pseudo_accuracy(all refits),dropped(final step),dropped_that_were_noisy(%)
+realistic,AMIF-X,65972.0,99.98,2.2,100.0

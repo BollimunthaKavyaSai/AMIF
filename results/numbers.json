@@ -1,0 +1,2374 @@
+{
+ "elliptic_oracle": {
+  "AMIF-X": {
+   "F1": 85.48,
+   "F1_sd": 0.83,
+   "PR-AUC": 90.61,
+   "PR-AUC_sd": 0.24,
+   "ROC-AUC": 97.98,
+   "MCC": 85.41
+  },
+  "LightGBM-Collective": {
+   "F1": 84.98,
+   "F1_sd": 0.93,
+   "PR-AUC": 90.0,
+   "PR-AUC_sd": 0.46,
+   "ROC-AUC": 97.92,
+   "MCC": 84.88
+  },
+  "Stacking": {
+   "F1": 85.59,
+   "F1_sd": 0.22,
+   "PR-AUC": 90.01,
+   "PR-AUC_sd": 0.21,
+   "ROC-AUC": 97.89,
+   "MCC": 85.47
+  },
+  "Stacking-AllViews": {
+   "F1": 83.55,
+   "F1_sd": 0.56,
+   "PR-AUC": 88.36,
+   "PR-AUC_sd": 0.26,
+   "ROC-AUC": 97.54,
+   "MCC": 83.58
+  },
+  "LightGBM-AllViews": {
+   "F1": 83.62,
+   "F1_sd": 0.8,
+   "PR-AUC": 88.64,
+   "PR-AUC_sd": 0.25,
+   "ROC-AUC": 97.67,
+   "MCC": 83.55
+  },
+  "XGBoost-AllViews": {
+   "F1": 82.46,
+   "F1_sd": 0.54,
+   "PR-AUC": 87.87,
+   "PR-AUC_sd": 0.3,
+   "ROC-AUC": 97.65,
+   "MCC": 82.36
+  },
+  "LR-AllViews": {
+   "F1": 71.79,
+   "F1_sd": 0.0,
+   "PR-AUC": 75.77,
+   "PR-AUC_sd": 0.0,
+   "ROC-AUC": 94.11,
+   "MCC": 70.44
+  },
+  "LightGBM": {
+   "F1": 84.87,
+   "F1_sd": 0.39,
+   "PR-AUC": 89.6,
+   "PR-AUC_sd": 0.21,
+   "ROC-AUC": 97.81,
+   "MCC": 84.76
+  },
+  "XGBoost": {
+   "F1": 84.38,
+   "F1_sd": 0.38,
+   "PR-AUC": 89.05,
+   "PR-AUC_sd": 0.24,
+   "ROC-AUC": 97.76,
+   "MCC": 84.3
+  },
+  "CatBoost": {
+   "F1": 83.51,
+   "F1_sd": 0.34,
+   "PR-AUC": 89.09,
+   "PR-AUC_sd": 0.38,
+   "ROC-AUC": 97.75,
+   "MCC": 83.38
+  },
+  "RF": {
+   "F1": 82.57,
+   "F1_sd": 0.25,
+   "PR-AUC": 85.96,
+   "PR-AUC_sd": 0.22,
+   "ROC-AUC": 96.62,
+   "MCC": 82.68
+  },
+  "LR": {
+   "F1": 69.63,
+   "F1_sd": 0.0,
+   "PR-AUC": 64.88,
+   "PR-AUC_sd": 0.0,
+   "ROC-AUC": 91.64,
+   "MCC": 68.17
+  },
+  "MLP": {
+   "F1": 76.29,
+   "F1_sd": 0.26,
+   "PR-AUC": 81.13,
+   "PR-AUC_sd": 0.42,
+   "ROC-AUC": 95.88,
+   "MCC": 76.33
+  },
+  "GCN": {
+   "F1": 64.42,
+   "F1_sd": 1.92,
+   "PR-AUC": 66.55,
+   "PR-AUC_sd": 2.07,
+   "ROC-AUC": 92.93,
+   "MCC": 63.28
+  },
+  "GraphSAGE": {
+   "F1": 70.68,
+   "F1_sd": 1.83,
+   "PR-AUC": 72.95,
+   "PR-AUC_sd": 0.57,
+   "ROC-AUC": 93.46,
+   "MCC": 69.63
+  },
+  "GAT": {
+   "F1": 70.71,
+   "F1_sd": 0.99,
+   "PR-AUC": 73.57,
+   "PR-AUC_sd": 1.26,
+   "ROC-AUC": 94.0,
+   "MCC": 70.03
+  },
+  "SGC": {
+   "F1": 64.0,
+   "F1_sd": 0.0,
+   "PR-AUC": 62.88,
+   "PR-AUC_sd": 0.0,
+   "ROC-AUC": 91.32,
+   "MCC": 62.14
+  },
+  "LightGBM-Window": {
+   "F1": 84.23,
+   "F1_sd": 0.66,
+   "PR-AUC": 89.74,
+   "PR-AUC_sd": 0.2,
+   "ROC-AUC": 97.79,
+   "MCC": 84.03
+  },
+  "LightGBM-Decay": {
+   "F1": 83.74,
+   "F1_sd": 0.51,
+   "PR-AUC": 89.99,
+   "PR-AUC_sd": 0.09,
+   "ROC-AUC": 97.94,
+   "MCC": 83.8
+  },
+  "LightGBM-DDM": {
+   "F1": 81.55,
+   "F1_sd": 0.53,
+   "PR-AUC": 87.57,
+   "PR-AUC_sd": 0.2,
+   "ROC-AUC": 96.97,
+   "MCC": 81.66
+  },
+  "FullProfile": {
+   "F1": 84.87,
+   "F1_sd": 0.39,
+   "PR-AUC": 89.6,
+   "PR-AUC_sd": 0.21,
+   "ROC-AUC": 97.81,
+   "MCC": 84.76
+  },
+  "Transaction": {
+   "F1": 80.14,
+   "F1_sd": 0.18,
+   "PR-AUC": 85.34,
+   "PR-AUC_sd": 0.33,
+   "ROC-AUC": 97.07,
+   "MCC": 79.76
+  },
+  "Neighbourhood": {
+   "F1": 74.6,
+   "F1_sd": 0.83,
+   "PR-AUC": 78.81,
+   "PR-AUC_sd": 0.45,
+   "ROC-AUC": 95.28,
+   "MCC": 73.88
+  },
+  "Temporal": {
+   "F1": 50.96,
+   "F1_sd": 1.1,
+   "PR-AUC": 52.05,
+   "PR-AUC_sd": 1.87,
+   "ROC-AUC": 88.73,
+   "MCC": 47.81
+  },
+  "Actor": {
+   "F1": 71.73,
+   "F1_sd": 0.45,
+   "PR-AUC": 72.56,
+   "PR-AUC_sd": 0.19,
+   "ROC-AUC": 93.13,
+   "MCC": 71.5
+  },
+  "Graph": {
+   "F1": 79.1,
+   "F1_sd": 0.78,
+   "PR-AUC": 85.38,
+   "PR-AUC_sd": 0.63,
+   "ROC-AUC": 96.99,
+   "MCC": 79.18
+  },
+  "Anomaly": {
+   "F1": 34.61,
+   "F1_sd": 3.51,
+   "PR-AUC": 29.12,
+   "PR-AUC_sd": 4.48,
+   "ROC-AUC": 82.12,
+   "MCC": 31.71
+  },
+  "NeighbourRisk": {
+   "F1": 84.98,
+   "F1_sd": 0.93,
+   "PR-AUC": 90.0,
+   "PR-AUC_sd": 0.46,
+   "ROC-AUC": 97.92,
+   "MCC": 84.88
+  }
+ },
+ "elliptic_static": {
+  "AMIF-X": {
+   "F1": 71.87,
+   "F1_sd": 0.99,
+   "PR-AUC": 75.62,
+   "PR-AUC_sd": 0.5,
+   "ROC-AUC": 92.43,
+   "MCC": 70.31
+  },
+  "LightGBM-Collective": {
+   "F1": 70.38,
+   "F1_sd": 1.49,
+   "PR-AUC": 74.42,
+   "PR-AUC_sd": 1.1,
+   "ROC-AUC": 91.52,
+   "MCC": 68.68
+  },
+  "Stacking": {
+   "F1": 73.24,
+   "F1_sd": 1.29,
+   "PR-AUC": 74.88,
+   "PR-AUC_sd": 0.23,
+   "ROC-AUC": 91.91,
+   "MCC": 71.96
+  },
+  "Stacking-AllViews": {
+   "F1": 72.22,
+   "F1_sd": 1.69,
+   "PR-AUC": 74.56,
+   "PR-AUC_sd": 0.32,
+   "ROC-AUC": 91.61,
+   "MCC": 70.77
+  },
+  "LightGBM-AllViews": {
+   "F1": 70.15,
+   "F1_sd": 1.38,
+   "PR-AUC": 74.27,
+   "PR-AUC_sd": 0.43,
+   "ROC-AUC": 91.37,
+   "MCC": 68.39
+  },
+  "XGBoost-AllViews": {
+   "F1": 65.15,
+   "F1_sd": 7.8,
+   "PR-AUC": 74.15,
+   "PR-AUC_sd": 0.19,
+   "ROC-AUC": 90.9,
+   "MCC": 63.3
+  },
+  "LR-AllViews": {
+   "F1": 50.33,
+   "F1_sd": 0.0,
+   "PR-AUC": 63.26,
+   "PR-AUC_sd": 0.0,
+   "ROC-AUC": 91.12,
+   "MCC": 48.35
+  },
+  "LightGBM": {
+   "F1": 70.96,
+   "F1_sd": 1.43,
+   "PR-AUC": 74.65,
+   "PR-AUC_sd": 0.13,
+   "ROC-AUC": 91.93,
+   "MCC": 69.3
+  },
+  "XGBoost": {
+   "F1": 71.3,
+   "F1_sd": 2.76,
+   "PR-AUC": 74.78,
+   "PR-AUC_sd": 0.21,
+   "ROC-AUC": 91.65,
+   "MCC": 69.72
+  },
+  "CatBoost": {
+   "F1": 72.29,
+   "F1_sd": 2.38,
+   "PR-AUC": 74.94,
+   "PR-AUC_sd": 1.19,
+   "ROC-AUC": 92.09,
+   "MCC": 70.84
+  },
+  "RF": {
+   "F1": 62.41,
+   "F1_sd": 3.98,
+   "PR-AUC": 73.47,
+   "PR-AUC_sd": 0.29,
+   "ROC-AUC": 89.2,
+   "MCC": 60.22
+  },
+  "LR": {
+   "F1": 35.7,
+   "F1_sd": 0.0,
+   "PR-AUC": 39.4,
+   "PR-AUC_sd": 0.0,
+   "ROC-AUC": 87.7,
+   "MCC": 35.27
+  },
+  "MLP": {
+   "F1": 52.62,
+   "F1_sd": 0.74,
+   "PR-AUC": 46.43,
+   "PR-AUC_sd": 3.44,
+   "ROC-AUC": 88.83,
+   "MCC": 49.69
+  },
+  "SGC": {
+   "F1": 29.78,
+   "F1_sd": 0.0,
+   "PR-AUC": 28.33,
+   "PR-AUC_sd": 0.0,
+   "ROC-AUC": 84.66,
+   "MCC": 29.72
+  },
+  "FullProfile": {
+   "F1": 70.96,
+   "F1_sd": 1.43,
+   "PR-AUC": 74.65,
+   "PR-AUC_sd": 0.13,
+   "ROC-AUC": 91.93,
+   "MCC": 69.3
+  },
+  "Transaction": {
+   "F1": 65.67,
+   "F1_sd": 2.04,
+   "PR-AUC": 72.1,
+   "PR-AUC_sd": 0.32,
+   "ROC-AUC": 90.08,
+   "MCC": 63.55
+  },
+  "Neighbourhood": {
+   "F1": 57.37,
+   "F1_sd": 2.18,
+   "PR-AUC": 59.46,
+   "PR-AUC_sd": 1.31,
+   "ROC-AUC": 87.6,
+   "MCC": 54.85
+  },
+  "Temporal": {
+   "F1": 53.04,
+   "F1_sd": 1.46,
+   "PR-AUC": 50.25,
+   "PR-AUC_sd": 1.54,
+   "ROC-AUC": 84.0,
+   "MCC": 50.35
+  },
+  "Actor": {
+   "F1": 68.48,
+   "F1_sd": 0.2,
+   "PR-AUC": 69.57,
+   "PR-AUC_sd": 0.26,
+   "ROC-AUC": 91.04,
+   "MCC": 67.57
+  },
+  "Graph": {
+   "F1": 65.11,
+   "F1_sd": 1.53,
+   "PR-AUC": 74.54,
+   "PR-AUC_sd": 0.37,
+   "ROC-AUC": 91.9,
+   "MCC": 62.93
+  },
+  "Anomaly": {
+   "F1": 32.01,
+   "F1_sd": 2.2,
+   "PR-AUC": 32.66,
+   "PR-AUC_sd": 12.74,
+   "ROC-AUC": 82.7,
+   "MCC": 28.55
+  },
+  "NeighbourRisk": {
+   "F1": 70.38,
+   "F1_sd": 1.49,
+   "PR-AUC": 74.42,
+   "PR-AUC_sd": 1.1,
+   "ROC-AUC": 91.52,
+   "MCC": 68.68
+  }
+ },
+ "elliptic_realistic": {
+  "AMIF-X": {
+   "F1": 75.67,
+   "F1_sd": 0.44,
+   "PR-AUC": 78.38,
+   "PR-AUC_sd": 0.6,
+   "ROC-AUC": 94.51,
+   "MCC": 75.63
+  },
+  "LightGBM-Collective": {
+   "F1": 74.22,
+   "F1_sd": 1.45,
+   "PR-AUC": 79.85,
+   "PR-AUC_sd": 2.1,
+   "ROC-AUC": 94.8,
+   "MCC": 74.26
+  },
+  "Stacking": {
+   "F1": 76.43,
+   "F1_sd": 0.95,
+   "PR-AUC": 76.44,
+   "PR-AUC_sd": 0.95,
+   "ROC-AUC": 93.54,
+   "MCC": 76.67
+  },
+  "LightGBM-AllViews": {
+   "F1": 75.11,
+   "F1_sd": 0.41,
+   "PR-AUC": 79.3,
+   "PR-AUC_sd": 1.11,
+   "ROC-AUC": 94.65,
+   "MCC": 74.84
+  },
+  "LightGBM": {
+   "F1": 75.76,
+   "F1_sd": 0.47,
+   "PR-AUC": 76.61,
+   "PR-AUC_sd": 0.8,
+   "ROC-AUC": 93.69,
+   "MCC": 76.03
+  },
+  "XGBoost": {
+   "F1": 75.51,
+   "F1_sd": 0.99,
+   "PR-AUC": 76.45,
+   "PR-AUC_sd": 1.25,
+   "ROC-AUC": 93.48,
+   "MCC": 75.59
+  },
+  "CatBoost": {
+   "F1": 75.04,
+   "F1_sd": 1.46,
+   "PR-AUC": 74.82,
+   "PR-AUC_sd": 1.04,
+   "ROC-AUC": 91.58,
+   "MCC": 74.76
+  },
+  "RF": {
+   "F1": 77.61,
+   "F1_sd": 0.76,
+   "PR-AUC": 74.28,
+   "PR-AUC_sd": 0.35,
+   "ROC-AUC": 88.84,
+   "MCC": 77.4
+  },
+  "LR": {
+   "F1": 58.46,
+   "F1_sd": 2.14,
+   "PR-AUC": 47.44,
+   "PR-AUC_sd": 1.62,
+   "ROC-AUC": 88.19,
+   "MCC": 55.9
+  },
+  "LightGBM-Decay": {
+   "F1": 75.14,
+   "F1_sd": 0.68,
+   "PR-AUC": 75.28,
+   "PR-AUC_sd": 1.25,
+   "ROC-AUC": 92.08,
+   "MCC": 75.33
+  },
+  "LightGBM-SelfTrain": {
+   "F1": 27.63,
+   "F1_sd": 1.98,
+   "PR-AUC": 35.79,
+   "PR-AUC_sd": 9.64,
+   "ROC-AUC": 89.39,
+   "MCC": 30.99
+  }
+ },
+ "elliptic_decomp": {
+  "LightGBM": {
+   "static": [
+    74.64990195243004,
+    70.95962354309265
+   ],
+   "oracle": [
+    89.59615445853208,
+    84.86558138980567
+   ],
+   "realistic": [
+    76.60790645089632,
+    75.75734304908386
+   ]
+  },
+  "LightGBM-AllViews": {
+   "static": [
+    74.27482299429549,
+    70.15207466365234
+   ],
+   "oracle": [
+    88.64438565668293,
+    83.62070744607377
+   ],
+   "realistic": [
+    79.30043642357813,
+    75.1115048423488
+   ]
+  },
+  "LightGBM-Collective": {
+   "static": [
+    74.41820469858621,
+    70.3770243936406
+   ],
+   "oracle": [
+    89.99749344956162,
+    84.98116323933118
+   ],
+   "realistic": [
+    79.8467409526523,
+    74.22293912311527
+   ]
+  },
+  "Stacking": {
+   "static": [
+    74.88087051456891,
+    73.24415221331768
+   ],
+   "oracle": [
+    90.00524191143228,
+    85.59338166136718
+   ],
+   "realistic": [
+    76.43622834023765,
+    76.43232789228692
+   ]
+  },
+  "Stacking-AllViews": {
+   "static": [
+    74.55657045242141,
+    72.2226899342306
+   ],
+   "oracle": [
+    88.35784202528855,
+    83.55000921227406
+   ]
+  },
+  "AMIF-X": {
+   "static": [
+    75.61945902812181,
+    71.86802598860154
+   ],
+   "oracle": [
+    90.61294803753347,
+    85.48089129685779
+   ],
+   "realistic": [
+    78.38124141664012,
+    75.66600575744056
+   ]
+  }
+ },
+ "elliptic_periods": [
+  {
+   "Model": "AMIF-X",
+   "Period": "pre-shutdown (36-42)",
+   "n_illicit": 732,
+   "F1": 90.599,
+   "PR-AUC": 92.52,
+   "PR-AUC_lo": 91.056,
+   "PR-AUC_hi": 94.027,
+   "ROC-AUC": 98.116
+  },
+  {
+   "Model": "AMIF-X",
+   "Period": "post-shutdown (43-49)",
+   "n_illicit": 169,
+   "F1": 58.079,
+   "PR-AUC": 74.055,
+   "PR-AUC_lo": 66.565,
+   "PR-AUC_hi": 80.593,
+   "ROC-AUC": 98.448
+  },
+  {
+   "Model": "LightGBM-Collective",
+   "Period": "pre-shutdown (36-42)",
+   "n_illicit": 732,
+   "F1": 90.182,
+   "PR-AUC": 92.49,
+   "PR-AUC_lo": 91.107,
+   "PR-AUC_hi": 93.936,
+   "ROC-AUC": 98.023
+  },
+  {
+   "Model": "LightGBM-Collective",
+   "Period": "post-shutdown (43-49)",
+   "n_illicit": 169,
+   "F1": 57.213,
+   "PR-AUC": 68.565,
+   "PR-AUC_lo": 61.77,
+   "PR-AUC_hi": 75.062,
+   "ROC-AUC": 97.837
+  },
+  {
+   "Model": "Stacking",
+   "Period": "pre-shutdown (36-42)",
+   "n_illicit": 732,
+   "F1": 90.235,
+   "PR-AUC": 92.193,
+   "PR-AUC_lo": 90.735,
+   "PR-AUC_hi": 93.823,
+   "ROC-AUC": 98.025
+  },
+  {
+   "Model": "Stacking",
+   "Period": "post-shutdown (43-49)",
+   "n_illicit": 169,
+   "F1": 60.97,
+   "PR-AUC": 74.254,
+   "PR-AUC_lo": 67.037,
+   "PR-AUC_hi": 81.051,
+   "ROC-AUC": 97.982
+  },
+  {
+   "Model": "LightGBM-AllViews",
+   "Period": "pre-shutdown (36-42)",
+   "n_illicit": 732,
+   "F1": 89.846,
+   "PR-AUC": 91.823,
+   "PR-AUC_lo": 90.342,
+   "PR-AUC_hi": 93.504,
+   "ROC-AUC": 97.837
+  },
+  {
+   "Model": "LightGBM-AllViews",
+   "Period": "post-shutdown (43-49)",
+   "n_illicit": 169,
+   "F1": 47.523,
+   "PR-AUC": 63.247,
+   "PR-AUC_lo": 56.209,
+   "PR-AUC_hi": 70.61,
+   "ROC-AUC": 97.453
+  },
+  {
+   "Model": "LightGBM",
+   "Period": "pre-shutdown (36-42)",
+   "n_illicit": 732,
+   "F1": 89.79,
+   "PR-AUC": 92.018,
+   "PR-AUC_lo": 90.502,
+   "PR-AUC_hi": 93.654,
+   "ROC-AUC": 97.946
+  },
+  {
+   "Model": "LightGBM",
+   "Period": "post-shutdown (43-49)",
+   "n_illicit": 169,
+   "F1": 58.431,
+   "PR-AUC": 72.192,
+   "PR-AUC_lo": 64.945,
+   "PR-AUC_hi": 78.511,
+   "ROC-AUC": 97.677
+  },
+  {
+   "Model": "CatBoost",
+   "Period": "pre-shutdown (36-42)",
+   "n_illicit": 732,
+   "F1": 89.698,
+   "PR-AUC": 92.2,
+   "PR-AUC_lo": 90.779,
+   "PR-AUC_hi": 93.778,
+   "ROC-AUC": 97.962
+  },
+  {
+   "Model": "CatBoost",
+   "Period": "post-shutdown (43-49)",
+   "n_illicit": 169,
+   "F1": 48.298,
+   "PR-AUC": 64.861,
+   "PR-AUC_lo": 57.687,
+   "PR-AUC_hi": 71.518,
+   "ROC-AUC": 97.355
+  },
+  {
+   "Model": "GCN",
+   "Period": "pre-shutdown (36-42)",
+   "n_illicit": 732,
+   "F1": 75.272,
+   "PR-AUC": 79.269,
+   "PR-AUC_lo": 76.762,
+   "PR-AUC_hi": 81.752,
+   "ROC-AUC": 95.067
+  },
+  {
+   "Model": "GCN",
+   "Period": "post-shutdown (43-49)",
+   "n_illicit": 169,
+   "F1": 1.95,
+   "PR-AUC": 9.785,
+   "PR-AUC_lo": 8.169,
+   "PR-AUC_hi": 12.202,
+   "ROC-AUC": 83.436
+  },
+  {
+   "Model": "LightGBM-Decay",
+   "Period": "pre-shutdown (36-42)",
+   "n_illicit": 732,
+   "F1": 89.22,
+   "PR-AUC": 92.418,
+   "PR-AUC_lo": 90.882,
+   "PR-AUC_hi": 94.012,
+   "ROC-AUC": 98.125
+  },
+  {
+   "Model": "LightGBM-Decay",
+   "Period": "post-shutdown (43-49)",
+   "n_illicit": 169,
+   "F1": 52.926,
+   "PR-AUC": 73.041,
+   "PR-AUC_lo": 66.17,
+   "PR-AUC_hi": 78.792,
+   "ROC-AUC": 97.729
+  }
+ ],
+ "elliptic_budget": [
+  {
+   "Model": "AMIF-X",
+   "Budget": "1%",
+   "Precision@K": 100.0,
+   "Recall@K": 16.98,
+   "Lift@K": 17.01
+  },
+  {
+   "Model": "AMIF-X",
+   "Budget": "2%",
+   "Precision@K": 100.0,
+   "Recall@K": 34.07,
+   "Lift@K": 17.01
+  },
+  {
+   "Model": "AMIF-X",
+   "Budget": "5%",
+   "Precision@K": 94.15,
+   "Recall@K": 80.04,
+   "Lift@K": 16.02
+  },
+  {
+   "Model": "AMIF-X",
+   "Budget": "10%",
+   "Precision@K": 53.06,
+   "Recall@K": 90.28,
+   "Lift@K": 9.03
+  },
+  {
+   "Model": "AMIF-X",
+   "Budget": "20%",
+   "Precision@K": 27.96,
+   "Recall@K": 95.16,
+   "Lift@K": 4.76
+  },
+  {
+   "Model": "LightGBM-Collective",
+   "Budget": "1%",
+   "Precision@K": 100.0,
+   "Recall@K": 16.98,
+   "Lift@K": 17.01
+  },
+  {
+   "Model": "LightGBM-Collective",
+   "Budget": "2%",
+   "Precision@K": 100.0,
+   "Recall@K": 34.07,
+   "Lift@K": 17.01
+  },
+  {
+   "Model": "LightGBM-Collective",
+   "Budget": "5%",
+   "Precision@K": 93.11,
+   "Recall@K": 79.16,
+   "Lift@K": 15.84
+  },
+  {
+   "Model": "LightGBM-Collective",
+   "Budget": "10%",
+   "Precision@K": 52.71,
+   "Recall@K": 89.68,
+   "Lift@K": 8.97
+  },
+  {
+   "Model": "LightGBM-Collective",
+   "Budget": "20%",
+   "Precision@K": 28.02,
+   "Recall@K": 95.36,
+   "Lift@K": 4.77
+  },
+  {
+   "Model": "Stacking",
+   "Budget": "1%",
+   "Precision@K": 100.0,
+   "Recall@K": 16.98,
+   "Lift@K": 17.01
+  },
+  {
+   "Model": "Stacking",
+   "Budget": "2%",
+   "Precision@K": 100.0,
+   "Recall@K": 34.07,
+   "Lift@K": 17.01
+  },
+  {
+   "Model": "Stacking",
+   "Budget": "5%",
+   "Precision@K": 93.81,
+   "Recall@K": 79.76,
+   "Lift@K": 15.96
+  },
+  {
+   "Model": "Stacking",
+   "Budget": "10%",
+   "Precision@K": 52.45,
+   "Recall@K": 89.23,
+   "Lift@K": 8.92
+  },
+  {
+   "Model": "Stacking",
+   "Budget": "20%",
+   "Precision@K": 27.9,
+   "Recall@K": 94.94,
+   "Lift@K": 4.75
+  },
+  {
+   "Model": "LightGBM-AllViews",
+   "Budget": "1%",
+   "Precision@K": 100.0,
+   "Recall@K": 16.98,
+   "Lift@K": 17.01
+  },
+  {
+   "Model": "LightGBM-AllViews",
+   "Budget": "2%",
+   "Precision@K": 100.0,
+   "Recall@K": 34.07,
+   "Lift@K": 17.01
+  },
+  {
+   "Model": "LightGBM-AllViews",
+   "Budget": "5%",
+   "Precision@K": 91.28,
+   "Recall@K": 77.6,
+   "Lift@K": 15.53
+  },
+  {
+   "Model": "LightGBM-AllViews",
+   "Budget": "10%",
+   "Precision@K": 52.03,
+   "Recall@K": 88.52,
+   "Lift@K": 8.85
+  },
+  {
+   "Model": "LightGBM-AllViews",
+   "Budget": "20%",
+   "Precision@K": 27.84,
+   "Recall@K": 94.74,
+   "Lift@K": 4.74
+  },
+  {
+   "Model": "LightGBM",
+   "Budget": "1%",
+   "Precision@K": 100.0,
+   "Recall@K": 16.98,
+   "Lift@K": 17.01
+  },
+  {
+   "Model": "LightGBM",
+   "Budget": "2%",
+   "Precision@K": 100.0,
+   "Recall@K": 34.07,
+   "Lift@K": 17.01
+  },
+  {
+   "Model": "LightGBM",
+   "Budget": "5%",
+   "Precision@K": 93.34,
+   "Recall@K": 79.36,
+   "Lift@K": 15.88
+  },
+  {
+   "Model": "LightGBM",
+   "Budget": "10%",
+   "Precision@K": 52.24,
+   "Recall@K": 88.88,
+   "Lift@K": 8.89
+  },
+  {
+   "Model": "LightGBM",
+   "Budget": "20%",
+   "Precision@K": 27.89,
+   "Recall@K": 94.92,
+   "Lift@K": 4.75
+  },
+  {
+   "Model": "CatBoost",
+   "Budget": "1%",
+   "Precision@K": 100.0,
+   "Recall@K": 16.98,
+   "Lift@K": 17.01
+  },
+  {
+   "Model": "CatBoost",
+   "Budget": "2%",
+   "Precision@K": 100.0,
+   "Recall@K": 34.07,
+   "Lift@K": 17.01
+  },
+  {
+   "Model": "CatBoost",
+   "Budget": "5%",
+   "Precision@K": 91.46,
+   "Recall@K": 77.76,
+   "Lift@K": 15.56
+  },
+  {
+   "Model": "CatBoost",
+   "Budget": "10%",
+   "Precision@K": 52.39,
+   "Recall@K": 89.15,
+   "Lift@K": 8.91
+  },
+  {
+   "Model": "CatBoost",
+   "Budget": "20%",
+   "Precision@K": 27.85,
+   "Recall@K": 94.76,
+   "Lift@K": 4.74
+  }
+ ],
+ "elliptic_cvcl_ablation": [
+  {
+   "Scenario": "realistic",
+   "Variant": "AMIF-X (final configuration)",
+   "seeds": 5,
+   "PR-AUC": 78.381,
+   "PR-AUC_sd": 0.604,
+   "F1": 75.666,
+   "F1_sd": 0.436,
+   "full_minus_variant_lo": NaN,
+   "full_minus_variant_hi": NaN,
+   "p": NaN
+  },
+  {
+   "Scenario": "realistic",
+   "Variant": "  + cross-view consensus learning (CVCL)",
+   "seeds": 5,
+   "PR-AUC": 77.718,
+   "PR-AUC_sd": 0.238,
+   "F1": 77.081,
+   "F1_sd": 0.517,
+   "full_minus_variant_lo": 0.109,
+   "full_minus_variant_hi": 1.244,
+   "p": 0.012
+  },
+  {
+   "Scenario": "oracle",
+   "Variant": "AMIF-X (final configuration)",
+   "seeds": 5,
+   "PR-AUC": 90.613,
+   "PR-AUC_sd": 0.238,
+   "F1": 85.481,
+   "F1_sd": 0.826,
+   "full_minus_variant_lo": NaN,
+   "full_minus_variant_hi": NaN,
+   "p": NaN
+  }
+ ],
+ "elliptic_cvcl_quality": [
+  {
+   "Scenario": "realistic",
+   "Owner": "AMIF-X",
+   "pseudo_labels(final step)": 16542.6,
+   "pseudo_accuracy(all refits)": 99.18,
+   "dropped(final step)": 83.6,
+   "dropped_that_were_noisy(%)": 96.58
+  }
+ ],
+ "amlsim10k_oracle": {
+  "AMIF-X": {
+   "F1": 92.02,
+   "F1_sd": 0.41,
+   "PR-AUC": 94.61,
+   "PR-AUC_sd": 0.1,
+   "ROC-AUC": 99.79,
+   "MCC": 92.03
+  },
+  "LightGBM-Collective": {
+   "F1": 91.8,
+   "F1_sd": 0.06,
+   "PR-AUC": 94.55,
+   "PR-AUC_sd": 0.1,
+   "ROC-AUC": 99.8,
+   "MCC": 91.9
+  },
+  "Stacking": {
+   "F1": 91.37,
+   "F1_sd": 0.06,
+   "PR-AUC": 88.15,
+   "PR-AUC_sd": 0.07,
+   "ROC-AUC": 97.65,
+   "MCC": 91.57
+  },
+  "Stacking-AllViews": {
+   "F1": 90.52,
+   "F1_sd": 0.09,
+   "PR-AUC": 90.86,
+   "PR-AUC_sd": 0.07,
+   "ROC-AUC": 98.59,
+   "MCC": 90.69
+  },
+  "LightGBM-AllViews": {
+   "F1": 89.54,
+   "F1_sd": 0.15,
+   "PR-AUC": 90.4,
+   "PR-AUC_sd": 0.06,
+   "ROC-AUC": 98.49,
+   "MCC": 89.8
+  },
+  "XGBoost-AllViews": {
+   "F1": 90.66,
+   "F1_sd": 0.1,
+   "PR-AUC": 90.82,
+   "PR-AUC_sd": 0.12,
+   "ROC-AUC": 98.59,
+   "MCC": 90.83
+  },
+  "LR-AllViews": {
+   "F1": 80.16,
+   "F1_sd": 0.0,
+   "PR-AUC": 79.94,
+   "PR-AUC_sd": 0.0,
+   "ROC-AUC": 96.32,
+   "MCC": 81.29
+  },
+  "LightGBM": {
+   "F1": 89.95,
+   "F1_sd": 0.34,
+   "PR-AUC": 87.56,
+   "PR-AUC_sd": 0.08,
+   "ROC-AUC": 97.38,
+   "MCC": 90.17
+  },
+  "XGBoost": {
+   "F1": 90.96,
+   "F1_sd": 0.16,
+   "PR-AUC": 88.08,
+   "PR-AUC_sd": 0.06,
+   "ROC-AUC": 97.53,
+   "MCC": 91.14
+  },
+  "CatBoost": {
+   "F1": 90.38,
+   "F1_sd": 0.22,
+   "PR-AUC": 87.6,
+   "PR-AUC_sd": 0.12,
+   "ROC-AUC": 97.27,
+   "MCC": 90.62
+  },
+  "RF": {
+   "F1": 91.5,
+   "F1_sd": 0.05,
+   "PR-AUC": 87.77,
+   "PR-AUC_sd": 0.11,
+   "ROC-AUC": 95.84,
+   "MCC": 91.73
+  },
+  "LR": {
+   "F1": 74.53,
+   "F1_sd": 0.0,
+   "PR-AUC": 72.7,
+   "PR-AUC_sd": 0.0,
+   "ROC-AUC": 93.69,
+   "MCC": 75.79
+  },
+  "MLP": {
+   "F1": 85.51,
+   "F1_sd": 0.28,
+   "PR-AUC": 83.41,
+   "PR-AUC_sd": 0.18,
+   "ROC-AUC": 96.14,
+   "MCC": 86.08
+  },
+  "GCN": {
+   "F1": 42.36,
+   "F1_sd": 2.82,
+   "PR-AUC": 56.72,
+   "PR-AUC_sd": 0.98,
+   "ROC-AUC": 91.09,
+   "MCC": 45.02
+  },
+  "GraphSAGE": {
+   "F1": 79.77,
+   "F1_sd": 1.89,
+   "PR-AUC": 83.26,
+   "PR-AUC_sd": 0.86,
+   "ROC-AUC": 98.07,
+   "MCC": 80.02
+  },
+  "SGC": {
+   "F1": 63.76,
+   "F1_sd": 0.0,
+   "PR-AUC": 63.19,
+   "PR-AUC_sd": 0.0,
+   "ROC-AUC": 96.29,
+   "MCC": 63.79
+  },
+  "LightGBM-Window": {
+   "F1": 89.5,
+   "F1_sd": 0.15,
+   "PR-AUC": 87.38,
+   "PR-AUC_sd": 0.11,
+   "ROC-AUC": 97.42,
+   "MCC": 89.77
+  },
+  "LightGBM-Decay": {
+   "F1": 89.91,
+   "F1_sd": 0.16,
+   "PR-AUC": 87.7,
+   "PR-AUC_sd": 0.09,
+   "ROC-AUC": 97.45,
+   "MCC": 90.11
+  },
+  "LightGBM-DDM": {
+   "F1": 88.08,
+   "F1_sd": 0.1,
+   "PR-AUC": 87.16,
+   "PR-AUC_sd": 0.1,
+   "ROC-AUC": 97.09,
+   "MCC": 88.48
+  },
+  "FullProfile": {
+   "F1": 89.95,
+   "F1_sd": 0.25,
+   "PR-AUC": 87.56,
+   "PR-AUC_sd": 0.06,
+   "ROC-AUC": 97.39,
+   "MCC": 90.15
+  },
+  "Transaction": {
+   "F1": 88.7,
+   "F1_sd": 0.17,
+   "PR-AUC": 86.48,
+   "PR-AUC_sd": 0.1,
+   "ROC-AUC": 96.74,
+   "MCC": 88.98
+  },
+  "Neighbourhood": {
+   "F1": 6.77,
+   "F1_sd": 0.27,
+   "PR-AUC": 3.12,
+   "PR-AUC_sd": 0.08,
+   "ROC-AUC": 70.18,
+   "MCC": 5.79
+  },
+  "Temporal": {
+   "F1": 75.66,
+   "F1_sd": 1.06,
+   "PR-AUC": 75.26,
+   "PR-AUC_sd": 0.24,
+   "ROC-AUC": 95.27,
+   "MCC": 77.7
+  },
+  "Actor": {
+   "F1": 46.89,
+   "F1_sd": 0.37,
+   "PR-AUC": 40.21,
+   "PR-AUC_sd": 0.34,
+   "ROC-AUC": 86.03,
+   "MCC": 52.62
+  },
+  "Graph": {
+   "F1": 91.12,
+   "F1_sd": 0.15,
+   "PR-AUC": 92.4,
+   "PR-AUC_sd": 0.1,
+   "ROC-AUC": 99.27,
+   "MCC": 91.22
+  },
+  "Anomaly": {
+   "F1": 11.3,
+   "F1_sd": 1.32,
+   "PR-AUC": 5.67,
+   "PR-AUC_sd": 0.82,
+   "ROC-AUC": 80.12,
+   "MCC": 11.88
+  },
+  "NeighbourRisk": {
+   "F1": 91.77,
+   "F1_sd": 0.1,
+   "PR-AUC": 94.47,
+   "PR-AUC_sd": 0.13,
+   "ROC-AUC": 99.8,
+   "MCC": 91.87
+  }
+ },
+ "amlsim10k_static": {
+  "AMIF-X": {
+   "F1": 91.68,
+   "F1_sd": 0.33,
+   "PR-AUC": 94.33,
+   "PR-AUC_sd": 0.08,
+   "ROC-AUC": 99.77,
+   "MCC": 91.79
+  },
+  "LightGBM-Collective": {
+   "F1": 90.93,
+   "F1_sd": 0.44,
+   "PR-AUC": 94.46,
+   "PR-AUC_sd": 0.09,
+   "ROC-AUC": 99.8,
+   "MCC": 91.11
+  },
+  "Stacking": {
+   "F1": 90.46,
+   "F1_sd": 0.19,
+   "PR-AUC": 87.83,
+   "PR-AUC_sd": 0.04,
+   "ROC-AUC": 97.39,
+   "MCC": 90.73
+  },
+  "Stacking-AllViews": {
+   "F1": 90.3,
+   "F1_sd": 0.21,
+   "PR-AUC": 89.96,
+   "PR-AUC_sd": 0.08,
+   "ROC-AUC": 98.31,
+   "MCC": 90.46
+  },
+  "LightGBM-AllViews": {
+   "F1": 88.6,
+   "F1_sd": 0.25,
+   "PR-AUC": 89.57,
+   "PR-AUC_sd": 0.21,
+   "ROC-AUC": 98.35,
+   "MCC": 88.76
+  },
+  "XGBoost-AllViews": {
+   "F1": 90.6,
+   "F1_sd": 0.1,
+   "PR-AUC": 90.45,
+   "PR-AUC_sd": 0.2,
+   "ROC-AUC": 98.44,
+   "MCC": 90.75
+  },
+  "LR-AllViews": {
+   "F1": 77.37,
+   "F1_sd": 0.0,
+   "PR-AUC": 76.51,
+   "PR-AUC_sd": 0.0,
+   "ROC-AUC": 95.22,
+   "MCC": 78.29
+  },
+  "LightGBM": {
+   "F1": 88.23,
+   "F1_sd": 0.43,
+   "PR-AUC": 87.18,
+   "PR-AUC_sd": 0.09,
+   "ROC-AUC": 97.3,
+   "MCC": 88.43
+  },
+  "XGBoost": {
+   "F1": 90.21,
+   "F1_sd": 0.14,
+   "PR-AUC": 87.71,
+   "PR-AUC_sd": 0.12,
+   "ROC-AUC": 97.32,
+   "MCC": 90.41
+  },
+  "CatBoost": {
+   "F1": 89.54,
+   "F1_sd": 0.22,
+   "PR-AUC": 87.28,
+   "PR-AUC_sd": 0.08,
+   "ROC-AUC": 97.08,
+   "MCC": 89.82
+  },
+  "RF": {
+   "F1": 90.98,
+   "F1_sd": 0.3,
+   "PR-AUC": 86.86,
+   "PR-AUC_sd": 0.12,
+   "ROC-AUC": 95.36,
+   "MCC": 91.22
+  },
+  "LR": {
+   "F1": 71.4,
+   "F1_sd": 0.0,
+   "PR-AUC": 69.32,
+   "PR-AUC_sd": 0.0,
+   "ROC-AUC": 93.09,
+   "MCC": 72.32
+  },
+  "MLP": {
+   "F1": 82.5,
+   "F1_sd": 1.22,
+   "PR-AUC": 80.92,
+   "PR-AUC_sd": 0.65,
+   "ROC-AUC": 94.83,
+   "MCC": 83.38
+  },
+  "SGC": {
+   "F1": 62.05,
+   "F1_sd": 0.0,
+   "PR-AUC": 61.35,
+   "PR-AUC_sd": 0.0,
+   "ROC-AUC": 95.85,
+   "MCC": 62.1
+  },
+  "FullProfile": {
+   "F1": 88.23,
+   "F1_sd": 0.43,
+   "PR-AUC": 87.18,
+   "PR-AUC_sd": 0.09,
+   "ROC-AUC": 97.3,
+   "MCC": 88.43
+  },
+  "Transaction": {
+   "F1": 86.47,
+   "F1_sd": 0.35,
+   "PR-AUC": 85.69,
+   "PR-AUC_sd": 0.14,
+   "ROC-AUC": 96.57,
+   "MCC": 86.68
+  },
+  "Neighbourhood": {
+   "F1": 5.24,
+   "F1_sd": 0.46,
+   "PR-AUC": 2.38,
+   "PR-AUC_sd": 0.08,
+   "ROC-AUC": 66.85,
+   "MCC": 4.19
+  },
+  "Temporal": {
+   "F1": 72.06,
+   "F1_sd": 2.0,
+   "PR-AUC": 72.06,
+   "PR-AUC_sd": 0.55,
+   "ROC-AUC": 94.27,
+   "MCC": 74.81
+  },
+  "Actor": {
+   "F1": 35.51,
+   "F1_sd": 2.83,
+   "PR-AUC": 30.04,
+   "PR-AUC_sd": 3.31,
+   "ROC-AUC": 83.7,
+   "MCC": 36.51
+  },
+  "Graph": {
+   "F1": 90.59,
+   "F1_sd": 0.36,
+   "PR-AUC": 91.8,
+   "PR-AUC_sd": 0.21,
+   "ROC-AUC": 99.16,
+   "MCC": 90.71
+  },
+  "Anomaly": {
+   "F1": 7.62,
+   "F1_sd": 0.36,
+   "PR-AUC": 4.76,
+   "PR-AUC_sd": 0.92,
+   "ROC-AUC": 78.29,
+   "MCC": 10.15
+  },
+  "NeighbourRisk": {
+   "F1": 90.93,
+   "F1_sd": 0.44,
+   "PR-AUC": 94.46,
+   "PR-AUC_sd": 0.09,
+   "ROC-AUC": 99.8,
+   "MCC": 91.11
+  }
+ },
+ "amlsim10k_realistic": {
+  "AMIF-X": {
+   "F1": 90.39,
+   "F1_sd": 0.46,
+   "PR-AUC": 91.88,
+   "PR-AUC_sd": 0.38,
+   "ROC-AUC": 98.51,
+   "MCC": 90.48
+  },
+  "LightGBM-Collective": {
+   "F1": 88.71,
+   "F1_sd": 0.85,
+   "PR-AUC": 90.53,
+   "PR-AUC_sd": 0.77,
+   "ROC-AUC": 98.23,
+   "MCC": 88.96
+  },
+  "Stacking": {
+   "F1": 91.01,
+   "F1_sd": 0.36,
+   "PR-AUC": 86.92,
+   "PR-AUC_sd": 0.27,
+   "ROC-AUC": 96.14,
+   "MCC": 91.24
+  },
+  "LightGBM-AllViews": {
+   "F1": 89.11,
+   "F1_sd": 0.34,
+   "PR-AUC": 87.9,
+   "PR-AUC_sd": 0.63,
+   "ROC-AUC": 96.67,
+   "MCC": 89.38
+  },
+  "LightGBM": {
+   "F1": 89.55,
+   "F1_sd": 0.2,
+   "PR-AUC": 86.87,
+   "PR-AUC_sd": 0.22,
+   "ROC-AUC": 96.62,
+   "MCC": 89.77
+  },
+  "XGBoost": {
+   "F1": 90.92,
+   "F1_sd": 0.4,
+   "PR-AUC": 87.07,
+   "PR-AUC_sd": 0.15,
+   "ROC-AUC": 96.69,
+   "MCC": 91.09
+  },
+  "CatBoost": {
+   "F1": 89.29,
+   "F1_sd": 0.75,
+   "PR-AUC": 86.48,
+   "PR-AUC_sd": 0.17,
+   "ROC-AUC": 96.4,
+   "MCC": 89.48
+  },
+  "RF": {
+   "F1": 90.73,
+   "F1_sd": 0.58,
+   "PR-AUC": 86.3,
+   "PR-AUC_sd": 0.23,
+   "ROC-AUC": 94.82,
+   "MCC": 90.93
+  },
+  "LR": {
+   "F1": 73.86,
+   "F1_sd": 0.35,
+   "PR-AUC": 71.71,
+   "PR-AUC_sd": 0.11,
+   "ROC-AUC": 93.07,
+   "MCC": 74.74
+  },
+  "LightGBM-Decay": {
+   "F1": 89.13,
+   "F1_sd": 0.21,
+   "PR-AUC": 86.82,
+   "PR-AUC_sd": 0.34,
+   "ROC-AUC": 96.31,
+   "MCC": 89.33
+  },
+  "LightGBM-SelfTrain": {
+   "F1": 89.1,
+   "F1_sd": 0.26,
+   "PR-AUC": 86.89,
+   "PR-AUC_sd": 0.09,
+   "ROC-AUC": 97.12,
+   "MCC": 89.33
+  }
+ },
+ "amlsim10k_decomp": {
+  "LightGBM": {
+   "static": [
+    87.18209873128282,
+    88.23272147591412
+   ],
+   "oracle": [
+    87.56123038700014,
+    89.95090524023169
+   ],
+   "realistic": [
+    86.8706065839901,
+    89.55198898020413
+   ]
+  },
+  "LightGBM-AllViews": {
+   "static": [
+    89.57332526278392,
+    88.5997942912064
+   ],
+   "oracle": [
+    90.40314180833013,
+    89.53697339146147
+   ],
+   "realistic": [
+    87.89743967529748,
+    89.10601111398697
+   ]
+  },
+  "LightGBM-Collective": {
+   "static": [
+    94.45878113857322,
+    90.93269700029825
+   ],
+   "oracle": [
+    94.54971038365743,
+    91.80310780854768
+   ],
+   "realistic": [
+    90.53435025519045,
+    88.71065039841406
+   ]
+  },
+  "Stacking": {
+   "static": [
+    87.82884099277058,
+    90.4615134590207
+   ],
+   "oracle": [
+    88.14689577617635,
+    91.36851994222918
+   ],
+   "realistic": [
+    86.92242331047687,
+    91.00713844891266
+   ]
+  },
+  "Stacking-AllViews": {
+   "static": [
+    89.95819464504517,
+    90.29845570509929
+   ],
+   "oracle": [
+    90.86327542410906,
+    90.52213921444296
+   ]
+  },
+  "AMIF-X": {
+   "static": [
+    94.33173305440143,
+    91.68341855850431
+   ],
+   "oracle": [
+    94.61304155705452,
+    92.02298528680953
+   ],
+   "realistic": [
+    91.88177398621646,
+    90.3895125341398
+   ]
+  }
+ },
+ "amlsim10k_budget": [
+  {
+   "Model": "AMIF-X",
+   "Budget": "1%",
+   "Precision@K": 99.23,
+   "Recall@K": 85.81,
+   "Lift@K": 85.78
+  },
+  {
+   "Model": "AMIF-X",
+   "Budget": "2%",
+   "Precision@K": 54.28,
+   "Recall@K": 93.82,
+   "Lift@K": 46.92
+  },
+  {
+   "Model": "AMIF-X",
+   "Budget": "5%",
+   "Precision@K": 22.81,
+   "Recall@K": 98.59,
+   "Lift@K": 19.72
+  },
+  {
+   "Model": "AMIF-X",
+   "Budget": "10%",
+   "Precision@K": 11.55,
+   "Recall@K": 99.83,
+   "Lift@K": 9.98
+  },
+  {
+   "Model": "AMIF-X",
+   "Budget": "20%",
+   "Precision@K": 5.78,
+   "Recall@K": 100.0,
+   "Lift@K": 5.0
+  },
+  {
+   "Model": "LightGBM-Collective",
+   "Budget": "1%",
+   "Precision@K": 98.69,
+   "Recall@K": 85.34,
+   "Lift@K": 85.31
+  },
+  {
+   "Model": "LightGBM-Collective",
+   "Budget": "2%",
+   "Precision@K": 54.25,
+   "Recall@K": 93.78,
+   "Lift@K": 46.89
+  },
+  {
+   "Model": "LightGBM-Collective",
+   "Budget": "5%",
+   "Precision@K": 22.84,
+   "Recall@K": 98.72,
+   "Lift@K": 19.74
+  },
+  {
+   "Model": "LightGBM-Collective",
+   "Budget": "10%",
+   "Precision@K": 11.56,
+   "Recall@K": 99.94,
+   "Lift@K": 9.99
+  },
+  {
+   "Model": "LightGBM-Collective",
+   "Budget": "20%",
+   "Precision@K": 5.78,
+   "Recall@K": 100.0,
+   "Lift@K": 5.0
+  },
+  {
+   "Model": "Stacking",
+   "Budget": "1%",
+   "Precision@K": 98.22,
+   "Recall@K": 84.93,
+   "Lift@K": 84.9
+  },
+  {
+   "Model": "Stacking",
+   "Budget": "2%",
+   "Precision@K": 50.4,
+   "Recall@K": 87.11,
+   "Lift@K": 43.56
+  },
+  {
+   "Model": "Stacking",
+   "Budget": "5%",
+   "Precision@K": 20.61,
+   "Recall@K": 89.06,
+   "Lift@K": 17.81
+  },
+  {
+   "Model": "Stacking",
+   "Budget": "10%",
+   "Precision@K": 10.6,
+   "Recall@K": 91.59,
+   "Lift@K": 9.16
+  },
+  {
+   "Model": "Stacking",
+   "Budget": "20%",
+   "Precision@K": 5.49,
+   "Recall@K": 95.0,
+   "Lift@K": 4.75
+  },
+  {
+   "Model": "LightGBM-AllViews",
+   "Budget": "1%",
+   "Precision@K": 96.64,
+   "Recall@K": 83.57,
+   "Lift@K": 83.53
+  },
+  {
+   "Model": "LightGBM-AllViews",
+   "Budget": "2%",
+   "Precision@K": 52.03,
+   "Recall@K": 89.94,
+   "Lift@K": 44.97
+  },
+  {
+   "Model": "LightGBM-AllViews",
+   "Budget": "5%",
+   "Precision@K": 21.44,
+   "Recall@K": 92.67,
+   "Lift@K": 18.53
+  },
+  {
+   "Model": "LightGBM-AllViews",
+   "Budget": "10%",
+   "Precision@K": 10.96,
+   "Recall@K": 94.71,
+   "Lift@K": 9.47
+  },
+  {
+   "Model": "LightGBM-AllViews",
+   "Budget": "20%",
+   "Precision@K": 5.63,
+   "Recall@K": 97.29,
+   "Lift@K": 4.86
+  },
+  {
+   "Model": "LightGBM",
+   "Budget": "1%",
+   "Precision@K": 96.97,
+   "Recall@K": 83.86,
+   "Lift@K": 83.82
+  },
+  {
+   "Model": "LightGBM",
+   "Budget": "2%",
+   "Precision@K": 50.26,
+   "Recall@K": 86.88,
+   "Lift@K": 43.45
+  },
+  {
+   "Model": "LightGBM",
+   "Budget": "5%",
+   "Precision@K": 20.54,
+   "Recall@K": 88.77,
+   "Lift@K": 17.75
+  },
+  {
+   "Model": "LightGBM",
+   "Budget": "10%",
+   "Precision@K": 10.56,
+   "Recall@K": 91.24,
+   "Lift@K": 9.12
+  },
+  {
+   "Model": "LightGBM",
+   "Budget": "20%",
+   "Precision@K": 5.46,
+   "Recall@K": 94.44,
+   "Lift@K": 4.72
+  },
+  {
+   "Model": "CatBoost",
+   "Budget": "1%",
+   "Precision@K": 97.48,
+   "Recall@K": 84.29,
+   "Lift@K": 84.26
+  },
+  {
+   "Model": "CatBoost",
+   "Budget": "2%",
+   "Precision@K": 50.14,
+   "Recall@K": 86.68,
+   "Lift@K": 43.34
+  },
+  {
+   "Model": "CatBoost",
+   "Budget": "5%",
+   "Precision@K": 20.53,
+   "Recall@K": 88.74,
+   "Lift@K": 17.75
+  },
+  {
+   "Model": "CatBoost",
+   "Budget": "10%",
+   "Precision@K": 10.5,
+   "Recall@K": 90.75,
+   "Lift@K": 9.08
+  },
+  {
+   "Model": "CatBoost",
+   "Budget": "20%",
+   "Precision@K": 5.44,
+   "Recall@K": 94.07,
+   "Lift@K": 4.7
+  }
+ ],
+ "amlsim10k_cvcl_ablation": [
+  {
+   "Scenario": "realistic",
+   "Variant": "AMIF-X (final configuration)",
+   "seeds": 5,
+   "PR-AUC": 91.882,
+   "PR-AUC_sd": 0.376,
+   "F1": 90.39,
+   "F1_sd": 0.463,
+   "full_minus_variant_lo": NaN,
+   "full_minus_variant_hi": NaN,
+   "p": NaN
+  },
+  {
+   "Scenario": "realistic",
+   "Variant": "  + cross-view consensus learning (CVCL)",
+   "seeds": 5,
+   "PR-AUC": 90.165,
+   "PR-AUC_sd": 1.064,
+   "F1": 86.173,
+   "F1_sd": 2.169,
+   "full_minus_variant_lo": 0.999,
+   "full_minus_variant_hi": 2.262,
+   "p": 0.0
+  },
+  {
+   "Scenario": "oracle",
+   "Variant": "AMIF-X (final configuration)",
+   "seeds": 5,
+   "PR-AUC": 94.613,
+   "PR-AUC_sd": 0.104,
+   "F1": 92.023,
+   "F1_sd": 0.412,
+   "full_minus_variant_lo": NaN,
+   "full_minus_variant_hi": NaN,
+   "p": NaN
+  }
+ ],
+ "amlsim10k_cvcl_quality": [
+  {
+   "Scenario": "realistic",
+   "Owner": "AMIF-X",
+   "pseudo_labels(final step)": 65972.0,
+   "pseudo_accuracy(all refits)": 99.98,
+   "dropped(final step)": 2.2,
+   "dropped_that_were_noisy(%)": 100.0
+  }
+ ],
+ "elliptic_oracle_ablation": [
+  {
+   "Configuration": "AMIF-X (learned planner + context)",
+   "F1": 85.481,
+   "F1_sd": 0.826,
+   "PR-AUC": 90.613,
+   "PR-AUC_sd": 0.238,
+   "ROC-AUC": 97.979,
+   "dPR-AUC": NaN,
+   "dPR_lo": NaN,
+   "dPR_hi": NaN,
+   "p": NaN,
+   "pHolm": NaN
+  },
+  {
+   "Configuration": "  w/o context",
+   "F1": 85.14,
+   "F1_sd": 0.752,
+   "PR-AUC": 90.596,
+   "PR-AUC_sd": 0.223,
+   "ROC-AUC": 97.955,
+   "dPR-AUC": -0.017,
+   "dPR_lo": -0.111,
+   "dPR_hi": 0.061,
+   "p": 0.648,
+   "pHolm": 1.0
+  },
+  {
+   "Configuration": "  + agent x context interactions",
+   "F1": 85.714,
+   "F1_sd": 0.914,
+   "PR-AUC": 90.682,
+   "PR-AUC_sd": 0.275,
+   "ROC-AUC": 98.012,
+   "dPR-AUC": 0.069,
+   "dPR_lo": -0.167,
+   "dPR_hi": 0.321,
+   "p": 0.6,
+   "pHolm": 1.0
+  },
+  {
+   "Configuration": "  equal-weight log-odds fusion (AMIF-style)",
+   "F1": 84.531,
+   "F1_sd": 0.45,
+   "PR-AUC": 89.406,
+   "PR-AUC_sd": 0.258,
+   "ROC-AUC": 97.988,
+   "dPR-AUC": -1.207,
+   "dPR_lo": -1.683,
+   "dPR_hi": -0.786,
+   "p": 0.0,
+   "pHolm": 0.0
+  },
+  {
+   "Configuration": "  mean-probability fusion",
+   "F1": 82.027,
+   "F1_sd": 0.474,
+   "PR-AUC": 87.116,
+   "PR-AUC_sd": 0.313,
+   "ROC-AUC": 96.751,
+   "dPR-AUC": -3.497,
+   "dPR_lo": -4.187,
+   "dPR_hi": -2.758,
+   "p": 0.0,
+   "pHolm": 0.0
+  },
+  {
+   "Configuration": "  confidence-weighted fusion",
+   "F1": 82.157,
+   "F1_sd": 0.577,
+   "PR-AUC": 87.863,
+   "PR-AUC_sd": 0.34,
+   "ROC-AUC": 97.317,
+   "dPR-AUC": -2.75,
+   "dPR_lo": -3.372,
+   "dPR_hi": -2.13,
+   "p": 0.0,
+   "pHolm": 0.0
+  },
+  {
+   "Configuration": "  w/o FullProfile",
+   "F1": 85.024,
+   "F1_sd": 0.894,
+   "PR-AUC": 90.427,
+   "PR-AUC_sd": 0.3,
+   "ROC-AUC": 97.967,
+   "dPR-AUC": -0.186,
+   "dPR_lo": -0.276,
+   "dPR_hi": -0.091,
+   "p": 0.0,
+   "pHolm": 0.001
+  },
+  {
+   "Configuration": "  w/o Transaction",
+   "F1": 85.587,
+   "F1_sd": 0.542,
+   "PR-AUC": 90.613,
+   "PR-AUC_sd": 0.2,
+   "ROC-AUC": 97.978,
+   "dPR-AUC": 0.0,
+   "dPR_lo": -0.045,
+   "dPR_hi": 0.048,
+   "p": 0.976,
+   "pHolm": 1.0
+  },
+  {
+   "Configuration": "  w/o Neighbourhood",
+   "F1": 85.528,
+   "F1_sd": 0.665,
+   "PR-AUC": 90.618,
+   "PR-AUC_sd": 0.216,
+   "ROC-AUC": 97.975,
+   "dPR-AUC": 0.005,
+   "dPR_lo": -0.016,
+   "dPR_hi": 0.026,
+   "p": 0.636,
+   "pHolm": 1.0
+  },
+  {
+   "Configuration": "  w/o Temporal",
+   "F1": 85.488,
+   "F1_sd": 0.779,
+   "PR-AUC": 90.758,
+   "PR-AUC_sd": 0.218,
+   "ROC-AUC": 98.022,
+   "dPR-AUC": 0.145,
+   "dPR_lo": 0.109,
+   "dPR_hi": 0.183,
+   "p": 0.0,
+   "pHolm": 0.0
+  },
+  {
+   "Configuration": "  w/o Actor",
+   "F1": 85.524,
+   "F1_sd": 0.705,
+   "PR-AUC": 90.666,
+   "PR-AUC_sd": 0.216,
+   "ROC-AUC": 98.008,
+   "dPR-AUC": 0.053,
+   "dPR_lo": 0.023,
+   "dPR_hi": 0.082,
+   "p": 0.001,
+   "pHolm": 0.004
+  },
+  {
+   "Configuration": "  w/o Graph",
+   "F1": 85.992,
+   "F1_sd": 0.79,
+   "PR-AUC": 90.697,
+   "PR-AUC_sd": 0.241,
+   "ROC-AUC": 98.013,
+   "dPR-AUC": 0.084,
+   "dPR_lo": -0.089,
+   "dPR_hi": 0.27,
+   "p": 0.32,
+   "pHolm": 1.0
+  },
+  {
+   "Configuration": "  w/o Anomaly",
+   "F1": 85.434,
+   "F1_sd": 0.82,
+   "PR-AUC": 90.637,
+   "PR-AUC_sd": 0.226,
+   "ROC-AUC": 98.0,
+   "dPR-AUC": 0.025,
+   "dPR_lo": 0.005,
+   "dPR_hi": 0.042,
+   "p": 0.012,
+   "pHolm": 0.072
+  },
+  {
+   "Configuration": "  w/o NeighbourRisk",
+   "F1": 85.066,
+   "F1_sd": 0.353,
+   "PR-AUC": 89.565,
+   "PR-AUC_sd": 0.213,
+   "ROC-AUC": 97.817,
+   "dPR-AUC": -1.048,
+   "dPR_lo": -1.47,
+   "dPR_hi": -0.64,
+   "p": 0.0,
+   "pHolm": 0.0
+  },
+  {
+   "Configuration": "  FullProfile only",
+   "F1": 84.866,
+   "F1_sd": 0.39,
+   "PR-AUC": 89.485,
+   "PR-AUC_sd": 0.222,
+   "ROC-AUC": 97.725,
+   "dPR-AUC": -1.128,
+   "dPR_lo": -1.7,
+   "dPR_hi": -0.578,
+   "p": 0.0,
+   "pHolm": 0.001
+  },
+  {
+   "Configuration": "  FullProfile + context",
+   "F1": 85.304,
+   "F1_sd": 0.345,
+   "PR-AUC": 89.591,
+   "PR-AUC_sd": 0.197,
+   "ROC-AUC": 97.762,
+   "dPR-AUC": -1.022,
+   "dPR_lo": -1.571,
+   "dPR_hi": -0.505,
+   "p": 0.0,
+   "pHolm": 0.001
+  },
+  {
+   "Configuration": "  specialists only (w/o FullProfile)",
+   "F1": 85.024,
+   "F1_sd": 0.894,
+   "PR-AUC": 90.427,
+   "PR-AUC_sd": 0.3,
+   "ROC-AUC": 97.967,
+   "dPR-AUC": -0.186,
+   "dPR_lo": -0.276,
+   "dPR_hi": -0.091,
+   "p": 0.0,
+   "pHolm": 0.001
+  }
+ ],
+ "elliptic_gating": [
+  {
+   "Band": "all agents",
+   "Activation": 100.0,
+   "Agents/case": 8.0,
+   "F1": 85.481,
+   "PR-AUC": 90.613,
+   "Measured s/step": 0.439
+  },
+  {
+   "Band": "Tier-1 only",
+   "Activation": 0.0,
+   "Agents/case": 3.0,
+   "F1": 84.917,
+   "PR-AUC": 89.444,
+   "Measured s/step": NaN
+  },
+  {
+   "Band": "(0.1, 0.8)",
+   "Activation": 4.157,
+   "Agents/case": 3.208,
+   "F1": 86.003,
+   "PR-AUC": 90.031,
+   "Measured s/step": 0.292
+  },
+  {
+   "Band": "(0.05, 0.9)",
+   "Activation": 7.708,
+   "Agents/case": 3.385,
+   "F1": 85.646,
+   "PR-AUC": 90.202,
+   "Measured s/step": 0.298
+  },
+  {
+   "Band": "(0.02, 0.95)",
+   "Activation": 14.674,
+   "Agents/case": 3.734,
+   "F1": 85.488,
+   "PR-AUC": 90.498,
+   "Measured s/step": 0.303
+  },
+  {
+   "Band": "(0.01, 0.99)",
+   "Activation": 22.792,
+   "Agents/case": 4.14,
+   "F1": 85.399,
+   "PR-AUC": 90.627,
+   "Measured s/step": NaN
+  }
+ ],
+ "amlsim10k_oracle_ablation": [
+  {
+   "Configuration": "AMIF-X (learned planner + context)",
+   "F1": 92.023,
+   "F1_sd": 0.412,
+   "PR-AUC": 94.613,
+   "PR-AUC_sd": 0.104,
+   "ROC-AUC": 99.788,
+   "dPR-AUC": NaN,
+   "dPR_lo": NaN,
+   "dPR_hi": NaN,
+   "p": NaN,
+   "pHolm": NaN
+  },
+  {
+   "Configuration": "  w/o context",
+   "F1": 92.239,
+   "F1_sd": 0.313,
+   "PR-AUC": 94.678,
+   "PR-AUC_sd": 0.122,
+   "ROC-AUC": 99.803,
+   "dPR-AUC": 0.065,
+   "dPR_lo": -0.007,
+   "dPR_hi": 0.139,
+   "p": 0.072,
+   "pHolm": 0.648
+  },
+  {
+   "Configuration": "  + agent x context interactions",
+   "F1": 92.221,
+   "F1_sd": 0.235,
+   "PR-AUC": 94.685,
+   "PR-AUC_sd": 0.126,
+   "ROC-AUC": 99.783,
+   "dPR-AUC": 0.072,
+   "dPR_lo": -0.028,
+   "dPR_hi": 0.173,
+   "p": 0.176,
+   "pHolm": 1.0
+  },
+  {
+   "Configuration": "  equal-weight log-odds fusion (AMIF-style)",
+   "F1": 90.143,
+   "F1_sd": 0.227,
+   "PR-AUC": 92.282,
+   "PR-AUC_sd": 0.094,
+   "ROC-AUC": 99.521,
+   "dPR-AUC": -2.331,
+   "dPR_lo": -2.936,
+   "dPR_hi": -1.744,
+   "p": 0.0,
+   "pHolm": 0.0
+  },
+  {
+   "Configuration": "  mean-probability fusion",
+   "F1": 91.651,
+   "F1_sd": 0.161,
+   "PR-AUC": 92.465,
+   "PR-AUC_sd": 0.078,
+   "ROC-AUC": 98.751,
+   "dPR-AUC": -2.148,
+   "dPR_lo": -2.742,
+   "dPR_hi": -1.522,
+   "p": 0.0,
+   "pHolm": 0.0
+  },
+  {
+   "Configuration": "  confidence-weighted fusion",
+   "F1": 91.453,
+   "F1_sd": 0.216,
+   "PR-AUC": 92.135,
+   "PR-AUC_sd": 0.141,
+   "ROC-AUC": 98.77,
+   "dPR-AUC": -2.478,
+   "dPR_lo": -3.081,
+   "dPR_hi": -1.851,
+   "p": 0.0,
+   "pHolm": 0.0
+  },
+  {
+   "Configuration": "  w/o FullProfile",
+   "F1": 92.038,
+   "F1_sd": 0.149,
+   "PR-AUC": 94.638,
+   "PR-AUC_sd": 0.094,
+   "ROC-AUC": 99.791,
+   "dPR-AUC": 0.025,
+   "dPR_lo": -0.016,
+   "dPR_hi": 0.063,
+   "p": 0.216,
+   "pHolm": 1.0
+  },
+  {
+   "Configuration": "  w/o Transaction",
+   "F1": 92.008,
+   "F1_sd": 0.298,
+   "PR-AUC": 94.638,
+   "PR-AUC_sd": 0.104,
+   "ROC-AUC": 99.792,
+   "dPR-AUC": 0.025,
+   "dPR_lo": -0.01,
+   "dPR_hi": 0.055,
+   "p": 0.176,
+   "pHolm": 1.0
+  },
+  {
+   "Configuration": "  w/o Neighbourhood",
+   "F1": 92.031,
+   "F1_sd": 0.26,
+   "PR-AUC": 94.606,
+   "PR-AUC_sd": 0.107,
+   "ROC-AUC": 99.788,
+   "dPR-AUC": -0.007,
+   "dPR_lo": -0.024,
+   "dPR_hi": 0.008,
+   "p": 0.368,
+   "pHolm": 1.0
+  },
+  {
+   "Configuration": "  w/o Temporal",
+   "F1": 92.095,
+   "F1_sd": 0.24,
+   "PR-AUC": 94.594,
+   "PR-AUC_sd": 0.096,
+   "ROC-AUC": 99.789,
+   "dPR-AUC": -0.019,
+   "dPR_lo": -0.052,
+   "dPR_hi": 0.013,
+   "p": 0.232,
+   "pHolm": 1.0
+  },
+  {
+   "Configuration": "  w/o Actor",
+   "F1": 92.137,
+   "F1_sd": 0.29,
+   "PR-AUC": 94.613,
+   "PR-AUC_sd": 0.103,
+   "ROC-AUC": 99.787,
+   "dPR-AUC": -0.0,
+   "dPR_lo": -0.046,
+   "dPR_hi": 0.044,
+   "p": 0.98,
+   "pHolm": 1.0
+  },
+  {
+   "Configuration": "  w/o Graph",
+   "F1": 91.805,
+   "F1_sd": 0.275,
+   "PR-AUC": 94.381,
+   "PR-AUC_sd": 0.114,
+   "ROC-AUC": 99.775,
+   "dPR-AUC": -0.232,
+   "dPR_lo": -0.467,
+   "dPR_hi": -0.023,
+   "p": 0.032,
+   "pHolm": 0.32
+  },
+  {
+   "Configuration": "  w/o Anomaly",
+   "F1": 92.121,
+   "F1_sd": 0.198,
+   "PR-AUC": 94.658,
+   "PR-AUC_sd": 0.1,
+   "ROC-AUC": 99.802,
+   "dPR-AUC": 0.045,
+   "dPR_lo": -0.03,
+   "dPR_hi": 0.125,
+   "p": 0.264,
+   "pHolm": 1.0
+  },
+  {
+   "Configuration": "  w/o NeighbourRisk",
+   "F1": 91.12,
+   "F1_sd": 0.161,
+   "PR-AUC": 92.666,
+   "PR-AUC_sd": 0.118,
+   "ROC-AUC": 99.327,
+   "dPR-AUC": -1.947,
+   "dPR_lo": -2.445,
+   "dPR_hi": -1.443,
+   "p": 0.0,
+   "pHolm": 0.0
+  },
+  {
+   "Configuration": "  FullProfile only",
+   "F1": 89.948,
+   "F1_sd": 0.247,
+   "PR-AUC": 87.571,
+   "PR-AUC_sd": 0.064,
+   "ROC-AUC": 97.432,
+   "dPR-AUC": -7.042,
+   "dPR_lo": -8.281,
+   "dPR_hi": -5.865,
+   "p": 0.0,
+   "pHolm": 0.0
+  },
+  {
+   "Configuration": "  FullProfile + context",
+   "F1": 89.698,
+   "F1_sd": 0.162,
+   "PR-AUC": 87.522,
+   "PR-AUC_sd": 0.053,
+   "ROC-AUC": 97.458,
+   "dPR-AUC": -7.091,
+   "dPR_lo": -8.334,
+   "dPR_hi": -5.925,
+   "p": 0.0,
+   "pHolm": 0.0
+  },
+  {
+   "Configuration": "  specialists only (w/o FullProfile)",
+   "F1": 92.038,
+   "F1_sd": 0.149,
+   "PR-AUC": 94.638,
+   "PR-AUC_sd": 0.094,
+   "ROC-AUC": 99.791,
+   "dPR-AUC": 0.025,
+   "dPR_lo": -0.016,
+   "dPR_hi": 0.063,
+   "p": 0.216,
+   "pHolm": 1.0
+  }
+ ],
+ "amlsim10k_gating": [
+  {
+   "Band": "all agents",
+   "Activation": 100.0,
+   "Agents/case": 8.0,
+   "F1": 92.023,
+   "PR-AUC": 94.613,
+   "Measured s/step": 1.095
+  },
+  {
+   "Band": "Tier-1 only",
+   "Activation": 0.0,
+   "Agents/case": 3.0,
+   "F1": 89.535,
+   "PR-AUC": 87.82,
+   "Measured s/step": NaN
+  },
+  {
+   "Band": "(0.1, 0.8)",
+   "Activation": 0.311,
+   "Agents/case": 3.016,
+   "F1": 90.981,
+   "PR-AUC": 88.184,
+   "Measured s/step": 0.507
+  },
+  {
+   "Band": "(0.05, 0.9)",
+   "Activation": 0.667,
+   "Agents/case": 3.033,
+   "F1": 91.192,
+   "PR-AUC": 88.478,
+   "Measured s/step": 0.432
+  },
+  {
+   "Band": "(0.02, 0.95)",
+   "Activation": 2.566,
+   "Agents/case": 3.128,
+   "F1": 91.271,
+   "PR-AUC": 89.296,
+   "Measured s/step": 0.464
+  },
+  {
+   "Band": "(0.01, 0.99)",
+   "Activation": 7.542,
+   "Agents/case": 3.377,
+   "F1": 91.622,
+   "PR-AUC": 90.935,
+   "Measured s/step": NaN
+  }
+ ]
+}
